@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <!-- --- section two --- -->
+    <section id="cart" >
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: Rs.<span id="cart-total">0</span></p>
+            <button id="checkout-btn" class="mybtn2">Checkout</button>
+        </div>
+        
+        <div class="products">
+            <h2>Available Products</h2>
+            <ul id="product-list"><hr>
+               
+                <li data-id="1" data-name=" Wine with strawberry flavour" data-price="349.00" class="justify-content-around">
+                    <img src="1one.png" style="width: 250px; height: 250px;" alt="">
+                    
+                   <b>Wine with strawberry flavour <br> Rs. 349.00</b>
+                    <button class="add-to-cart" >Order Now</button>
+                </li><hr>
+    
+                <li data-id="2" data-name="Cold chocolate drink" data-price="259.00" class="justify-content-around">
+                    <img src="2two.png  " style="width: 250px; height: 250px;" alt="">
+                   <b> Cold chocolate Drink <br> Rs. 259.00</b>
+                    <button class="add-to-cart">Order Now</button>
+                </li><hr>
+    
+                <li data-id="3" data-name="Lemonade Drink" data-price="149.00" class="justify-content-around">
+                   <img src="333.JPG" style="width: 250px; height: 250px;" alt="">
+                    <b>Lemonade Drink <br> Rs. 149.00</b>
+                    <button class="add-to-cart">Order Now</button>
+                </li><hr>
+        
+                <!-- Add more products here -->
+            </ul>
+        </div>
+      </section>
+      <script src="card.js"></script>
+</body>
+</html>
